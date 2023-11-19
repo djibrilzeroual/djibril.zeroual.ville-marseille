@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(https://files.123freevectors.com/wp-content/original/154027-abstract-blue-and-white-background-design.jpg);
+    background-size: 250% ;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.museum {
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.musée_histoire {
+    border:black solid 3px;
+    width: 35%;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: 2%; 
+    margin-right: 2%;
+}
+
+.description1{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+    font-size: 18px;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav > ul {
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.3);
+    height: var(--hauteur-menu);
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav > ul > li {
+    background-color: white;
+    position: relative;
+    height: 100%;
+    flex: 1;
+  }
+
+  nav > ul > li:hover > a{
+    color: #2169EC;
+  }
+
+  nav > ul > li > a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  li a {
+
+  
+    text-decoration: none;
+    color: black;
+    }
